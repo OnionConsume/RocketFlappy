@@ -10,6 +10,8 @@ Daarna ben ik begonnen met de ontwikkeling van de game. Ik heb een infinite scro
 
 Ook heb ik de spelerbeweging geïmplementeerd, inclusief een vuur-animatie onder de raket. Daarnaast heb ik een restart-systeem toegevoegd zodat de speler opnieuw kan beginnen na verlies.
 
+Na mijn eerste klantgesprek, was de GGD bestand niet goed. Dat moet nog gefixt worden en ik zal het opnieuw maken en weer laten zien. 
+
 ### Waar ben ik tegenaan gelopen?
 In eerste instantie spawnden de pipes allemaal op dezelfde hoogte, waardoor er geen variatie in de gameplay zat. Dit heb ik aangepast zodat de hoogte random wordt gegenereerd.
 
@@ -31,7 +33,7 @@ Daarnaast heb ik het GDD-bestand opnieuw moeten maken, omdat ik onderdelen was v
 ### Wat heb ik vandaag gedaan?
 Vandaag heb ik verschillende sound effects gemaakt en gewerkt aan de achtergrondmuziek van de game. Ik heb meerdere gamegeluiden ontworpen en daarnaast het visuele model van de jet fuel-bar gemaakt.
 
-Daarnaast is mijn GDD-bestand goedgekeurd.
+Dit was mijn 2 de klant gesprek en vandaag is mijn GDD-bestand goedgekeurd.
 
 ### Waar ben ik tegenaan gelopen?
 Ik had nog geen ervaring met het maken van eigen sound effects. Hierdoor wist ik niet precies hoe sound design voor games werkt.
@@ -67,23 +69,61 @@ Het combineren van meerdere systemen tegelijk (score, fuel en geluid) zorgde erv
 
 ---
 
+---
+
 ## Dag 4 – 16/02/2026
 
 ### Wat heb ik vandaag gedaan?
-Vandaag heb ik het bestaande score-systeem gebruikt om het jet fuel-systeem volledig te integreren in de game. Hierdoor werken de punten en de brandstoflogica samen binnen dezelfde gameplay-structuur.
+Vandaag heb ik het bestaande score-systeem gebruikt om het jet fuel-systeem verder te integreren in de game. Hierdoor werken de punten en de brandstoflogica correct samen binnen de gameplay.
 
-Daarnaast heb ik meerdere bugs opgelost, waaronder een fout waarbij de speler verloor zonder daadwerkelijk een pipe te raken.
+Daarnaast heb ik meerdere bugs opgelost, waaronder een fout waarbij de speler verloor zonder daadwerkelijk een pipe te raken. Ook heb ik gewerkt aan het verbeteren van de jump sound.
 
-Ook heb ik gewerkt aan het verbeteren van de jump sound, zodat deze beter aansluit bij de spelerbeweging.
+Vandaag heb ik ook een gebruikerstest uitgevoerd om de game te evalueren.
 
-Tot slot heb ik mijn presentatie afgerond. Mijn game development examen is nu volledig voorbereid om te presenteren.
+---
 
-### Waar ben ik tegenaan gelopen?
-- Moeite met het correct afstellen van de jump sound
-- Een fout in de collision-detectie waardoor de speler soms onterecht verloor
+### Gebruikerstest
+
+**Naam tester:** Vesile Erzincan  
+**Datum:** 16/02/2026  
+**Tijd:** 15:20  
+
+Ik heb mijn zus de game meerdere keren laten spelen om feedback te krijgen op de gameplay en het geluid.
+
+#### Bevindingen van de tester:
+- De game werkt stabiel en speelt soepel.
+- De moeilijkheidsgraad is passend.
+- De jump sound is iets te luid.
+- De achtergrondmuziek is te intens en klinkt meer als een bossfight dan als een casual game.
+- Simpelere en rustigere muziek zou beter passen bij het type game.
+
+---
+
+### Welke aanpassingen heb ik gedaan?
+Op basis van deze feedback heb ik:
+- Het volume van de jump sound verlaagd.
+- Het volume van de achtergrondmuziek aangepast.
+- De muziek vereenvoudigd zodat deze beter aansluit bij de casual gameplay.
+
+---
+
+### Reflectie
+De gebruikerstest liet zien dat de game technisch goed functioneert, maar dat audiobalans een grote invloed heeft op de spelervaring. Door de feedback direct te verwerken is de game beter afgestemd op de doelgroep.
+
+---
 
 ### Wat ga ik morgen doen?
-Op 17 februari ga ik mijn game development examen presenteren.
+Morgen (17/02/2026) voer ik een 3de klantgesprek met mevrouw Jacobs en presenteer ik mijn game development examen.
+
+## Dag 5 – 17/02/2026
+
+### Wat heb ik vandaag gedaan?
+Vandaag heb ik vóór mijn eindpresentatie een 3de klantgesprek gevoerd met mevrouw Jacobs (docent). Tijdens dit gesprek heb ik een korte demo van de game laten zien en gerichte feedback gevraagd op de gameplay, branding en gebruikerservaring.
+
+### Feedback van de klant
 
 
+### Welke aanpassingen heb ik gedaan?
 
+
+### Reflectie
