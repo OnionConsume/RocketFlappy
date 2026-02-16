@@ -3,7 +3,7 @@ using UnityEngine;
 // Dit script zorgt ervoor dat de pijpen naar links bewegen
 public class MovePipe : MonoBehaviour
 {
-    // De snelheid waarmee de pijp beweegt
+    // De snelheid waarmee de pijp beweegtz
     // SerializeField zodat je dit makkelijk kan tweaken in de Inspector
     [SerializeField] private float _speed = 0.65f;
 

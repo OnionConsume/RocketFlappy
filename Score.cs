@@ -35,14 +35,24 @@ public class Score : MonoBehaviour
     // dit wordt aangeroepen als player door pipes gaat
     public void UpdateScore()
     {
-        _score++; // score +1
+        // score +1
+        _score++;
+
+        // update huidige score tekst
         _currentScoreText.text = _score.ToString();
+
+        // +5 seconden flight time bij elke punt
+        if (FlightDuration.instance != null)
+        {
+            FlightDuration.instance.AddTime(5f);
+        }
 
         // check of nieuwe highscore
         if (_score > PlayerPrefs.GetInt("HighScore", 0))
         {
             PlayerPrefs.SetInt("HighScore", _score);
-            PlayerPrefs.Save(); // opslaan
+            PlayerPrefs.Save();
+
             _highScoreText.text = _score.ToString();
         }
     }
